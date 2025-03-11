@@ -65,3 +65,34 @@ body {
 .details p {
     margin: 5px 0;
 }
+@media (min-width: 768px) {  
+    .weather_card {
+        width: 500px;
+        padding: 30px;
+        border-radius: 20px;
+    }
+
+    .text {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    .search_button {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .details {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .suggestions {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .suggestions li {
+        padding: 10px;
+    }
+}
